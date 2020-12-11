@@ -1,5 +1,5 @@
-body {
-    background-color: red;
-    display: flex;
-    padding-top: 0;
-}
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+@import "header";
