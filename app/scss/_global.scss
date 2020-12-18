@@ -78,14 +78,15 @@ body {
 
 @media (min-width: 1130px) {
   .container {
-    width: 94.6903%;
+    min-width: 1130px;
     padding: 0 30px;
-    width: 1130px;    
+    width: 1130px;
   }
 }
 
-.main {     
-  &--active {    
-    transform: translateX(88%);    
+.main {
+  
+  &--active {
+    transform: translateX(88%);
   }
 }

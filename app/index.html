@@ -126,16 +126,20 @@
             </div>
             <div class="intro__picture">
               <picture class="intro__images">
+                <source srcset="images/intro-desktop@1x.webp 1x,
+                images/intro-desktop@2x.webp 2x" media="(min-width: 1130px)" type="image/webp">
                 <source
                   media="(min-width:1130px)"
                   srcset="images/intro-desktop@1x.png 1x,
                   images/intro-desktop@2x.png 2x"
                 />
+                <source srcset=" images/images/intro-mobile@2x.webp 1x, 
+                images/intro-mobile@2x.webp 2x" type="image/webp">
                 <img
                   class="intro__img"                  
                   src="images/intro-mobile@1x.png"
                   srcset="images/intro-mobile@2x.png 2x"
-                  alt="Парусик у маяка"
+                  alt="Парусник у маяка"
                 />
               </picture>
             </div>
@@ -150,7 +154,7 @@
               </a>
             </div>
             <div class="intro__set-wrapper">
-              <a href="#" class="intro__set-link">
+              <a href="social.html" class="intro__set-link">
                 <span class="intro__set-heading">Социальные сети</span>
                 <svg class="intro__set-img" width="275" height="108">
                   <use xlink:href="images/sprites.svg#set2"></use>
@@ -158,7 +162,7 @@
               </a>
             </div>
             <div class="intro__set-wrapper">
-              <a href="#" class="intro__set-link">
+              <a href="company.html" class="intro__set-link">
                 <span class="intro__set-heading">PR Компания</span>
                 <svg class="intro__set-img" width="267" height="108">
                   <use xlink:href="images/sprites.svg#set3"></use>
@@ -196,7 +200,7 @@
                 других крупнейших площадках, учитывая все аспекты вашего
                 бизнеса.
               </p>
-              <a href="" class="settings__save">pdf прайс</a>
+              <a href="#" class="settings__save">pdf прайс</a>
             </div>
           </div>
           <div class="settings__wrapper">
@@ -211,8 +215,8 @@
             </div>
             <div class="settings__sources">
               <div class="settings__scroll">
-                <button class="settings__btn settings__btn--up"></button>
-                <button class="settings__btn settings__btn--down"></button>
+                <button type="button" class="settings__btn settings__btn--up"></button>
+                <button type="button" class="settings__btn settings__btn--down"></button>
                 <span class="settings__scrolling"></span>
               </div>
               <div class="settings__social">
@@ -361,8 +365,8 @@
                   width="100px"
                   height="100px"
                 />
-                <h3 class="slider__title-top">Целевая аудитория</h3>
-                <span class="slider__line-top"></span>
+                <h3 class="slider__title-top slider__title-top--active">Целевая аудитория</h3>
+                <span class="slider__line-top slider__line-top--active"></span>
               </div>
                 
             </li>
@@ -535,7 +539,7 @@
               />
               <div class="slider__images-wrapper">
                 <div class="slider__images-block">
-                  <a class="slider__images-btn"></a>
+                  <a href="#" class="slider__images-btn"></a>
                 </div>
               </div>
               <p class="slider__text slider__text-top">
@@ -756,58 +760,58 @@
       <img src="images/logo.svg" alt="Логотип" class="footer__img">
       </a>
       <ul class="footer__products">
-        <li class="footer__product"><a href="#" class="footer__product-link">Соцсети</a></li>
+        <li class="footer__product"><a href="social.html" class="footer__product-link">Соцсети</a></li>
         <li class="footer__product footer__product-second"><a href="#" class="footer__product-link">Контекстная реклама</a></li>
-        <li class="footer__product"><a href="#" class="footer__product-link">PR Компания</a></li>
+        <li class="footer__product"><a href="company.html" class="footer__product-link">PR Компания</a></li>
       </ul>
       <a class="footer__phone" href="tel:+70000000000">+7 000 000 00 00</a>
     </div>
     <div class="footer__social">
       <ul class="footer__social-list">
         <li class="footer__social-item">
-          <a href="" class="footer__social-link">
+          <a href="#" class="footer__social-link">
             <svg class="footer__social-picture" width="24px" height="24px">
               <use xlink:href="images/sprites.svg#soc1"></use>
             </svg>
           </a>
         </li>
         <li class="footer__social-item">
-          <a href="" class="footer__social-link">
+          <a href="#" class="footer__social-link">
             <svg class="footer__social-picture" width="24px" height="24px">
               <use xlink:href="images/sprites.svg#soc2"></use>
             </svg>
           </a>
         </li>
         <li class="footer__social-item">
-          <a href="" class="footer__social-link">
+          <a href="#" class="footer__social-link">
             <svg class="footer__social-picture" width="24px" height="24px">
               <use xlink:href="images/sprites.svg#soc3"></use>
             </svg>
           </a>
         </li>
         <li class="footer__social-item">
-          <a href="" class="footer__social-link">
+          <a href="#" class="footer__social-link">
             <svg class="footer__social-picture" width="24px" height="24px">
               <use xlink:href="images/sprites.svg#soc4"></use>
             </svg>
           </a>
         </li>
         <li class="footer__social-item">
-          <a href="" class="footer__social-link">
+          <a href="#" class="footer__social-link">
             <svg class="footer__social-picture" width="24px" height="24px">
               <use xlink:href="images/sprites.svg#soc5"></use>
             </svg>
           </a>
         </li>
         <li class="footer__social-item">
-          <a href="" class="footer__social-link">
+          <a href="#" class="footer__social-link">
             <svg class="footer__social-picture" width="24px" height="24px">
               <use xlink:href="images/sprites.svg#soc6"></use>
             </svg>
           </a>
         </li>
         <li class="footer__social-item">
-          <a href="" class="footer__social-link">
+          <a href="#" class="footer__social-link">
             <svg class="footer__social-picture" width="24px" height="24px">
               <use xlink:href="images/sprites.svg#soc7"></use>
             </svg>

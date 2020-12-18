@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ExpertTarget Социальные сети</title>
+    <link
+      rel="preload"
+      href="fonts/Montserrat-Regular.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/Montserrat-Bold.woff2"
+      as="font"
+      crossorigin
+    />
+    <link rel="preload" href="css/style.min.css" as="style" crossorigin/>
+    <link rel="stylesheet" href="css/style.min.css"/>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top-wrapper">
+        <div class="header__top">
+          <button type="button" class="header__btn">
+            <span class="header__btn-line"></span>
+          </button>
+          <a href="index.html" class="header__logo-top">
+            <img src="images/logo.svg" alt="Логотип ExpertTarget"/>
+          </a>
+          <a class="header__phone-top" href="tel:+70000000000">
+            <svg class="header__phone-img" width="24px" height="24px">
+              <use xlink:href="images/sprites.svg#phone"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+        <div class="header__wrapper header__wrapper--closed">
+          <div class="header__wrapper-scroll">
+          <a href="index.html" class="header__logo">
+            <img src="images/logo.svg" alt="Логотип ExpertTarget" />
+          </a>          
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link menu__link-fix"
+                  >Контекстная реклама</a
+                >
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link-fix">Соцсети</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link-fix">СМИ</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Наши клиенты</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Контакты</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link-lang">Ru</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__contacts">
+            <div class="header__phone-wrapper">
+              <span class="header__phone-line"></span>
+          <a class="header__phone" href="tel:+70000000000">+7 000 000 00 00</a>
+          <span class="header__phone-line"></span>
+        </div>
+          <a class="header__order" href="#">Оформить заказ</a>
+        </div>
+      </div>
+      </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="intro">
+        <div class="container">
+          <div class="intro__wrapper">
+            <div class="intro__description">
+              <h1 class="intro__heading">
+                <span class="intro__heading-red">Ваш компас</span> <br />в мире
+                рекламы
+              </h1>
+              <p class="intro__text">
+                Команда ExpertTarget поможет вам провести эффективную рекламную
+                компанию вашего бизнеса.
+              </p>
+              <div class="intro__links">
+                <a class="intro__order" href="#">Оформить заказ</a>
+                <a href="#" class="intro__present">Презентация</a>
+              </div>
+            </div>
+            <div class="intro__picture">
+              <picture class="intro__images">
+                <source
+                  media="(min-width:1130px)"
+                  srcset="images/intro-desktop@1x.png 1x,
+                  images/intro-desktop@2x.png 2x"
+                />
+                <img
+                  class="intro__img"                  
+                  src="images/intro-mobile@1x.png"
+                  srcset="images/intro-mobile@2x.png 2x"
+                  alt="Парусик у маяка"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="intro__set">
+            <div class="intro__set-wrapper">
+              <a href="index.html" class="intro__set-link">
+                <span class="intro__set-heading">Контекстная реклама</span>
+                <svg class="intro__set-img" width="288" height="108">
+                  <use xlink:href="images/sprites.svg#set1"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="intro__set-wrapper">
+              <a href="social.html" class="intro__set-link intro__set-link--active">
+                <span class="intro__set-heading">Социальные сети</span>
+                <svg class="intro__set-img intro__set-img--active" width="275" height="108">
+                  <use xlink:href="images/sprites.svg#set2"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="intro__set-wrapper">
+              <a href="company.html" class="intro__set-link">
+                <span class="intro__set-heading">PR Компания</span>
+                <svg class="intro__set-img" width="267" height="108">
+                  <use xlink:href="images/sprites.svg#set3"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="social">
+        <div class="container">
+            <picture class="social__images">
+                <source
+                  media="(min-width:1130px)"
+                  srcset="images/social-main@1x.png 1x,
+                  images/social-main@2x.png 2x"
+                />
+                <img
+                  class="social__img"
+                  src="images/social-main-mobile@1x.png"
+                  srcset="images/social-main-mobile@2x.png 2x"
+                  alt="Очередь в кассу"
+                />
+              </picture>
+              <h2 class="social__heading title">Найдем ваших клиентов в социальных сетях</h2>
+              <p class="social__text">Проведем рекламные компании
+                для заинтересованной аудитории
+                во всех социальных сетях</p>
+                <a href="#" class="social__save">pdf прайс</a>
+                <div class="social__wrapper">
+                <div class="social__slider">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img
+                                src="images/Facebook@1x.png"
+                                srcset="images/Facebook@2x.png 2x"
+                                alt="Фейсбук"
+                                class="social__link-img"/> 
+                                <span class="social__link-text">2 000 000 подписок</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img
+                                src="images/vk@1x.png"
+                                srcset="images/vk@2x.png 2x"
+                                alt="ВКонтакте"
+                                class="social__link-img"                              />                             
+                                 <span class="social__link-text">5 000 000 подписок</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img
+                                src="images/instagram@1x.png"
+                                srcset="images/instagram@2x.png 2x"
+                                alt="Инстаграмм"
+                                class="social__link-img"/>                         
+                                     <span class="social__link-text">10 000 000 подписок</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img
+                                src="images/linkedin@1x.png"
+                                srcset="images/linkedin@2x.png 2x"
+                                alt="Инстаграмм"
+class="social__link-img"/>                        
+        <span class="social__link-text">8 000 000 подписок</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img
+                                src="images/Facebook@1x.png"
+                                srcset="images/Facebook@2x.png 2x"
+                                alt="Фейсбук"
+                                class="social__link-img"/>   
+                                <span class="social__link-text">2 000 000 подписок</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img
+                                src="images/vk@1x.png"
+                                srcset="images/vk@2x.png 2x"
+                                alt="ВКонтакте"
+                                class="social__link-img"/>                             
+                                 <span class="social__link-text">5 000 000 подписок</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img
+                                src="images/instagram@1x.png"
+                                srcset="images/instagram@2x.png 2x"
+                                alt="Инстаграмм"
+                                class="social__link-img"/>                         
+                                     <span class="social__link-text">10 000 000 подписок</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <img
+                                src="images/linkedin@1x.png"
+                                srcset="images/linkedin@2x.png 2x"
+                                alt="Инстаграмм"
+                                class="social__link-img"/>                        
+        <span class="social__link-text">8 000 000 подписок</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button type="button" class="social__btn social__btn--left"></button>
+                <button type="button" class="social__btn social__btn--right"></button>
+                </div>                
+                <span class="social__scroll"></span>
+            </div>
+        </div>
+      </section>      
+
+      <section class="slider slider-social">
+        <div class="container">
+          <h2 class="slider__heading slider__heading--social  title">
+            Какие возможности рекламы доступны?
+          </h2>
+          <ul class="slider__list-top">
+            <li class="slider__item-top">
+              <div class="slider__item-wrapper-top">
+                <img
+                  src="images/sl11@1x.png"
+                  srcset="images/sl11@2x.png 2x"
+                  alt="Контекстная
+                  реклама"
+                  class="slider__logo-top"
+                  width="100"
+                  height="100"
+                />
+                <h3 class="slider__title-top slider__title-top--active">Контекстная
+                    реклама</h3>
+                <span class="slider__line-top slider__line-top--active"></span>
+              </div>                
+            </li>
+            <li class="slider__item-top">
+              <div class="slider__item-wrapper-top">
+                <img
+                  src="images/sl12@1x.png"
+                  srcset="images/sl12@2x.png 2x"
+                  alt="Сообщества"
+                  class="slider__logo-top"
+                  width="100"
+                  height="100"
+                />
+                <h3 class="slider__title-top">Сообщества</h3>
+                <span class="slider__line-top"></span>
+              </div>                
+            </li>
+            <li class="slider__item-top">
+              <div class="slider__item-wrapper-top">
+                <img
+                  src="images/sl13@1x.png"
+                  srcset="images/sl13@2x.png 2x"
+                  alt="Сторис"
+                  class="slider__logo-top"
+                  width="100"
+                  height="100"
+                />
+                <h3 class="slider__title-top">Сторис</h3>
+                <span class="slider__line-top"></span>
+              </div>                
+            </li>
+            <li class="slider__item-top">
+              <div class="slider__item-wrapper-top">
+                <img
+                  src="images/sl14@1x.png"
+                  srcset="images/sl14@2x.png 2x"
+                  alt="Карусель"
+                  class="slider__logo-top"
+                  width="100"
+                  height="100"
+                />
+                <h3 class="slider__title-top">Карусель</h3>
+                <span class="slider__line-top"></span>
+                </div>                
+            </li>
+            <li class="slider__item-top">
+              <div class="slider__item-wrapper-top">
+                <img
+                  src="images/sl15@1x.png"
+                  srcset="images/sl15@2x.png 2x"
+                  alt="Лидеры
+                  мнений"
+                  class="slider__logo-top"
+                  width="100"
+                  height="100"
+                />
+                <h3 class="slider__title-top">Лидеры
+                    мнений</h3>
+                <span class="slider__line-top"></span>
+              </div>                
+            </li>
+          </ul>
+          <ul class="slider__list">
+            <li class="slider__item">
+                <div class="slider__item-wrapper">
+                    <img
+                      src="images/sl11@1x.png"
+                      srcset="images/sl11@2x.png 2x"
+                      alt="Контекстная
+                      реклама"
+                      class="slider__logo"
+                      width="100"
+                      height="100"
+                    />
+                    <h3 class="slider__title slider__title--company">Контекстная
+                        реклама</h3>                    
+                  </div>                
+              <p class="slider__text slider__text--company">
+                Настройка рекламной компании по интересам пользователей.
+                Например для людей, занимающихся спортом можно давать рекламу фитнес центров или спортивного питания.                
+              </p>
+            </li>
+            <li class="slider__item">
+                <div class="slider__item-wrapper">
+                    <img
+                      src="images/sl12@1x.png"
+                      srcset="images/sl12@2x.png 2x"
+                      alt="Сообщества"
+                      class="slider__logo"
+                      width="100"
+                      height="100"
+                    />
+                    <h3 class="slider__title slider__title--company">Сообщества</h3>                    
+                  </div>               
+                <picture class="slider__images">
+                    <source media="(min-width:1130px)" srcset="images/sld-6@1x.png 1x, images/sld-6@2x.png 2x" />
+                    <img
+                      class="slider__img"
+                      src="images/slm-6@1x.png"
+                      srcset="images/slm-6@2x.png 2x"
+                      alt="Покупка оформлена"
+                    />
+                  </picture>
+                  <p class="slider__text">
+                    Показ рекламных объявлений в поисковых системах и социальных сетях людям, которые заинтересованы в ваших товарах или услугах. У контекстной рекламы огромные возможности настройки целевой аудитории, а именно: пол, возраст, интересы и увлечения, образование, работа, места посещений и многое другое. Всего более 50 параметров. Мы поможем вам организовать эффективную рекламную компанию.
+                  </p>
+            </li>
+            <li class="slider__item slider__item-third">
+                <div class="slider__item-wrapper">
+                    <img
+                      src="images/sl13@1x.png"
+                      srcset="images/sl13@2x.png 2x"
+                      alt="Сторис"
+                      class="slider__logo"
+                      width="100"
+                      height="100"
+                    />
+                    <h3 class="slider__title">Сторис</h3>                    
+                  </div>                    
+                  <picture class="slider__images slider__images-right">
+                    <source media="(min-width:1130px)" srcset="images/sld-8@1x.png 1x, images/sld-8@2x.png 2x" />
+                    <img
+                      class="slider__img"
+                      src="images/sld-8@1x.png"
+                      srcset="images/sld-8@2x.png 2x"
+                      alt="Изображение карты"
+                    />
+                  </picture>
+                  <p class="slider__text slider__text-right">
+                    Показ рекламных объявлений в поисковых системах и социальных сетях людям, которые заинтересованы в ваших товарах или услугах. У контекстной рекламы огромные возможности настройки целевой аудитории, а именно: пол, возраст, интересы и увлечения, образование, работа, места посещений и многое другое. Всего более 50 параметров. Мы поможем вам организовать эффективную рекламную компанию.
+                  </p>
+            </li>
+            <li class="slider__item">
+                <div class="slider__item-wrapper">
+                    <img
+                      src="images/sl14@1x.png"
+                      srcset="images/sl14@2x.png 2x"
+                      alt="Карусель"
+                      class="slider__logo"
+                      width="100"
+                      height="100"
+                    />
+                    <h3 class="slider__title">Карусель</h3>                    
+                    </div>      
+                    <picture class="slider__images">
+                        <source media="(min-width:1130px)" srcset="images/sld-7@1x.png 1x, images/sld-7@2x.png 2x" />
+                        <img
+                          class="slider__img"
+                          src="images/slm-7@1x.png"
+                          srcset="images/slm-7@2x.png 2x"
+                          alt="Покупка оформлена"
+                        />
+                      </picture>
+                      <p class="slider__text">
+                        Показ рекламных объявлений в поисковых системах и социальных сетях людям, которые заинтересованы в ваших товарах или услугах. У контекстной рекламы огромные возможности настройки целевой аудитории, а именно: пол, возраст, интересы и увлечения, образование, работа, места посещений и многое другое. Всего более 50 параметров. Мы поможем вам организовать эффективную рекламную компанию.
+                      </p>
+            </li>
+            <li class="slider__item">
+                <div class="slider__item-wrapper">
+                    <img
+                      src="images/sl15@1x.png"
+                      srcset="images/sl15@2x.png 2x"
+                      alt="Лидеры
+                      мнений"
+                      class="slider__logo"
+                      width="100"
+                      height="100"
+                    />
+                    <h3 class="slider__title">Лидеры
+                        мнений</h3>                    
+                  </div> 
+              <picture class="slider__images">
+                <source media="(min-width:1130px)" srcset="images/sld-5@1x.png 1x, images/sld-5@2x.png 2x" />
+                <img
+                  class="slider__img"
+                  src="images/slm-5@1x.png"
+                  srcset="images/slm-5@2x.png 2x"
+                  alt="Покупка оформлена"
+                />
+              </picture>
+              <p class="slider__text">
+                Возможно настроить рекламные компании так, что вы будете платить
+                не за клики или показы, а конкретно за результат. Например,
+                оформленный заказ на вашем сайте, регистрацию, прохождение
+                опроса, заполнение различных форм и.т.д. Данный вид рекламы
+                требует профессиональных знаний и тонкой настройки. Наши
+                специалисты с радостью помогут вам!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="price">
+          <div class="container">
+              <div class="price__mobile">
+                <svg class="price__img" width="48" height="48">
+                    <use xlink:href="images/sprites.svg#price"></use>
+                  </svg>
+                  <h2 class="price__title title">Наши
+                    услуги и цены</h2>
+              </div>
+              <div class="price__wrapper">
+                  <ul class="price__list">
+                      <li class="price__item price__desktop">
+                        <svg class="price__img" width="48" height="48">
+                            <use xlink:href="images/sprites.svg#price"></use>
+                          </svg>
+                          <h2 class="price__title title">Наши
+                            услуги и цены</h2>
+            <a href="#" class="price__text">Показать все</a>
+                      </li>
+                      <li class="price__item price__item--social">
+                          <div class="price__intro price__intro--social">
+                              <h4 class="price__intro-heading">Комплексное продвижение
+                                в Instagram</h4>
+                              <p class="price__intro-help">Поможем настроить комплексное
+                                продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                              <div class="price__intro-wrapper">
+                                <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                                <a href="#" class="price__intro-link">Подробнее</a>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="price__item price__item--social">
+                        <div class="price__intro price__intro--social">
+                            <h4 class="price__intro-heading">Реклама
+                                в социальных сетях</h4>
+                            <p class="price__intro-help">Поможем настроить комплексное
+                              продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                            <div class="price__intro-wrapper">
+                              <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                              <a href="#" class="price__intro-link">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="price__item price__item--social">
+                        <div class="price__intro price__intro--social">
+                            <h4 class="price__intro-heading">Аудит SMM</h4>
+                            <p class="price__intro-help">Поможем настроить комплексное
+                              продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                            <div class="price__intro-wrapper">
+                              <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                              <a href="#" class="price__intro-link">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="price__item price__item--social">
+                        <div class="price__intro price__intro--social">
+                            <h4 class="price__intro-heading">Комплексное продвижение
+                                ВКонтакте</h4>
+                            <p class="price__intro-help">Поможем настроить комплексное
+                              продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                            <div class="price__intro-wrapper">
+                              <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                              <a href="#" class="price__intro-link">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="price__item price__item--social">
+                        <div class="price__intro price__intro--social">
+                            <h4 class="price__intro-heading">Комплексное продвижение
+                                Facebook</h4>
+                            <p class="price__intro-help">Поможем настроить комплексное
+                              продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                            <div class="price__intro-wrapper">
+                              <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                              <a href="#" class="price__intro-link">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="price__item price__item--social">
+                        <div class="price__intro price__intro--social">
+                            <h4 class="price__intro-heading">Комплексное продвижение
+                              в Instagram</h4>
+                            <p class="price__intro-help">Поможем настроить комплексное
+                              продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                            <div class="price__intro-wrapper">
+                              <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                              <a href="#" class="price__intro-link">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="price__item price__item--social">
+                      <div class="price__intro price__intro--social">
+                          <h4 class="price__intro-heading">Реклама
+                              в социальных сетях</h4>
+                          <p class="price__intro-help">Поможем настроить комплексное
+                            продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                          <div class="price__intro-wrapper">
+                            <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                            <a href="#" class="price__intro-link">Подробнее</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="price__item price__item--social">
+                      <div class="price__intro price__intro--social">
+                          <h4 class="price__intro-heading">Аудит SMM</h4>
+                          <p class="price__intro-help">Поможем настроить комплексное
+                            продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                          <div class="price__intro-wrapper">
+                            <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                            <a href="#" class="price__intro-link">Подробнее</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="price__item price__item--social">
+                      <div class="price__intro price__intro--social">
+                          <h4 class="price__intro-heading">Комплексное продвижение
+                              ВКонтакте</h4>
+                          <p class="price__intro-help">Поможем настроить комплексное
+                            продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                          <div class="price__intro-wrapper">
+                            <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                            <a href="#" class="price__intro-link">Подробнее</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="price__item price__item--social">
+                      <div class="price__intro price__intro--social">
+                          <h4 class="price__intro-heading">Комплексное продвижение
+                              Facebook</h4>
+                          <p class="price__intro-help">Поможем настроить комплексное
+                            продвижение в Instagram – оптимизация профиля, контент-план, посты, реклама.</p>
+                          <div class="price__intro-wrapper">
+                            <p class="price__intro-figure"><span class="price__intro-social">от</span><br>10 000 руб.</p>
+                            <a href="#" class="price__intro-link">Подробнее</a>
+                          </div>
+                      </div>
+                  </li>
+                  </ul>
+              </div>  
+                   <div class="price__nav">
+                       <button type="button" class="price__nav-button price__nav-button--left"></button>
+                       <div class="price__nav-wrapper">
+                           <span class="price__nav-circle price__nav-circle--active"></span>
+                           <span class="price__nav-circle"></span>
+                           <span class="price__nav-circle"></span>
+                           <span class="price__nav-circle"></span>
+                           <span class="price__nav-circle"></span>
+                       </div>
+                       <button type="button" class="price__nav-button price__nav-button--right"></button>
+                   </div>      
+          </div>
+      </section>
+
+      <section class="advantegs advantegs-company">
+        <div class="container">
+          <div class="advantegs__wrapper">
+            <div class="advantegs__main">
+              <h2 class="advantegs__title title">Наши преимущества</h2>
+              <a href="#" class="advantegs__link">Узнать больше</a>
+              <img
+                src="images/advan@1x.png"
+                srcset="images/advan@2x.png 2x"
+                alt="Супермен"
+                class="advantegs__img"
+              />
+            </div>
+            <div class="advantegs__united">
+              <div class="advantegs__scroll-wrapper">
+                <div class="advantegs__scroll">
+                  <span class="advantegs__scroll-circle"></span>
+                  <span class="advantegs__scroll-line"></span>
+                </div>
+                <div class="advantegs__scroll-figure">
+                  <p class="advantegs__scroll-number advantegs__scroll-first">
+                    01<span class="advantegs__scroll-part"> / 05</span>
+                  </p>
+                  <p class="advantegs__scroll-number advantegs__scroll-second">
+                    02<span class="advantegs__scroll-part"> / 05</span>
+                  </p>
+                  <p class="advantegs__scroll-number advantegs__scroll-third">
+                    03<span class="advantegs__scroll-part"> / 05</span>
+                  </p>
+                  <p class="advantegs__scroll-number advantegs__scroll-fourth">
+                    04<span class="advantegs__scroll-part"> / 05</span>
+                  </p>
+                  <p class="advantegs__scroll-number advantegs__scroll-fifth">
+                    05<span class="advantegs__scroll-part"> / 05</span>
+                  </p>
+                </div>
+              </div>
+              <div class="advantegs__column">
+                <ul class="advantegs__list">
+                  <li class="advantegs__item">
+                    <div class="advantegs__item-wrapper">
+                      <img
+                        src="images/adv11@1x.png"
+                        srcset="images/adv11@2x.png 2x"
+                        alt="Человек с сердцем"
+                        class="advantegs__item-img"
+                        width="100"
+                        height="100"
+                      />                      
+                      <p class="advantegs__item-text">Только белые методы продвижения
+                        в социальных сетях.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="advantegs__item">
+                    <div class="advantegs__item-wrapper">
+                      <img
+                        src="images/adv12@1x.png"
+                        srcset="images/adv12@2x.png 2x"
+                        alt="Весы на книжках"
+                        class="advantegs__item-img"
+                        width="100"
+                        height="100"
+                      />
+                      <p class="advantegs__item-text">
+                        Работаем с любыми видами бизнеса,
+                        не противоречащим законам РФ.
+                                          </p>
+                    </div>
+                  </li>
+                  <li class="advantegs__item">
+                    <div class="advantegs__item-wrapper">
+                      <img
+                        src="images/adv13@1x.png"
+                        srcset="images/adv13@2x.png 2x"
+                        alt="Рукопожатие"
+                        class="advantegs__item-img"
+                        width="100"
+                        height="100"
+                      />
+                      <p class="advantegs__item-text">
+                        Обговариваем конкретные сроки
+                        и согласовываем действия по проведению рекламных компаний.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="advantegs__item">
+                    <div class="advantegs__item-wrapper">
+                      <img
+                        src="images/adv14@1x.png"
+                        srcset="images/adv14@2x.png 2x"
+                        alt="Бирка скидочная"
+                        class="advantegs__item-img"
+                        width="100"
+                        height="100"
+                      />
+                      <p class="advantegs__item-text">
+                        Предоставляем индивидуальные скидки
+и бонусы для всех наших клиентов.
+Точные условия обсуждаются при заказе.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="advantegs__item">
+                    <div class="advantegs__item-wrapper">
+                      <img
+                        src="images/adv15@1x.png"
+                        srcset="images/adv15@2x.png 2x"
+                        alt="Список"
+                        class="advantegs__item-img"
+                        width="100"
+                        height="100"/>
+                      <p class="advantegs__item-text">
+                        Предоставляем отчеты по эффективности проведенных рекламных компаний.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="container">
+          <picture class="form__picture">
+            <source media="(min-width:1130px)" srcset="images/formd@1x.png 1x, images/formd@2x.png 2x" />
+            <img
+              class="form__img"
+              src="images/formm@1x.png"
+              srcset="images/formm@2x.png 2x"
+              alt="Установка рекламного щита"
+            />
+          </picture>
+          <h2 class="form__title title">Найдите своих клиентов с нами</h2>
+          <p class="form__text">Не ждите, что клиенты узнают
+            о вашей ценности случайно.
+            С ExpertTarget запустить рекламу
+            под свой бизнес легко.
+            Проверьте ее эффективность сами.</p>
+            <a href="#" class="form__link">скачать полный прайс pdf</a>
+            <form class="form__form" action=#" method="POST">
+              <div class="form__wrapper">
+              <div class="form__select">
+                <select name="service" class="form__select-list">
+                  <option value="0" class="form__select-item" disabled selected>Тип услуги</option>
+                  <option value="1" class="form__select-item">Соцсети</option>
+                  <option value="2" class="form__select-item">Контекстная реклама</option>
+                  <option value="3" class="form__select-item">PR Компания</option>
+                </select>
+              </div>
+              <input type="text" name="contacts" class="form__input" placeholder="Ваш E-mail или номер телефона">
+              <button class="form__button" type="submit">Оформить Заказ</button>
+            </div>
+             <label class="form__checkbox-text">
+               <input type="checkbox" name="agree" class="form__checkbox">Согласие на обработку моих персональных данных.
+            <span class="form__checkbox-style"></span>
+          </label>               
+            </form>
+        </div>
+      </section>
+    </main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <a href="#" class="footer__logo">
+      <img src="images/logo.svg" alt="Логотип" class="footer__img">
+      </a>
+      <ul class="footer__products">
+        <li class="footer__product"><a href="social.html" class="footer__product-link">Соцсети</a></li>
+        <li class="footer__product footer__product-second"><a href="index.html" class="footer__product-link">Контекстная реклама</a></li>
+        <li class="footer__product"><a href="company.html" class="footer__product-link">PR Компания</a></li>
+      </ul>
+      <a class="footer__phone" href="tel:+70000000000">+7 000 000 00 00</a>
+    </div>
+    <div class="footer__social">
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-picture" width="24px" height="24px">
+              <use xlink:href="images/sprites.svg#soc1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-picture" width="24px" height="24px">
+              <use xlink:href="images/sprites.svg#soc2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-picture" width="24px" height="24px">
+              <use xlink:href="images/sprites.svg#soc3"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-picture" width="24px" height="24px">
+              <use xlink:href="images/sprites.svg#soc4"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-picture" width="24px" height="24px">
+              <use xlink:href="images/sprites.svg#soc5"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-picture" width="24px" height="24px">
+              <use xlink:href="images/sprites.svg#soc6"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-picture" width="24px" height="24px">
+              <use xlink:href="images/sprites.svg#soc7"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p class="footer__copyright">© ExpertTarget, 2019. Designed by Alex Burenin</p>
+    </div>
+  </div>
+</footer>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

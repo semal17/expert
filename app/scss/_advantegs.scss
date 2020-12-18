@@ -1,5 +1,5 @@
 .advantegs {
-  margin: 58px 0 238px;
+  margin: 58px 0 238px;  
   &__link {
     display: none;
   }
@@ -26,6 +26,9 @@
     margin-bottom: 560px;
     height: 460px;
     overflow: hidden;
+    &-company {
+      margin-top: 150px;
+    }
     &__wrapper {
       display: flex;
       justify-content: space-between;
@@ -39,6 +42,22 @@
       text-transform: uppercase;
       font-weight: 700;
       padding: 16px 0 49px;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 24px;
+        height: 24px;
+        top: 13px;
+        right: 61px;
+        background-image: url("../images/vector-right.svg");
+      }
+      &:hover {
+        opacity: 0.6;
+      }
+      &:active {
+        opacity: 0.4;
+      }
     }
     &__img {
       margin: 0 auto;

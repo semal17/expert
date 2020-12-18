@@ -70,6 +70,12 @@
     cursor: pointer;
     position: relative;
     outline: none;
+    &:hover {
+      opacity: 0.8;
+    }
+    &:active {
+      opacity: 0.4;
+    }
   }
   &__btn-line {
     position: absolute;

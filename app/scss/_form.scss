@@ -69,8 +69,9 @@
       position: absolute;
       top: 0;
       right: 0;
+      display: block;
       width: 7px;
-      height: 14px;
+      height: 14px;     
       background-image: url("../images/select.svg");
       background-repeat: no-repeat;
     }
@@ -183,7 +184,7 @@
     &__link {
       width: 330px;
       font-size: 16px;
-      margin: 60px auto;
+      margin: 60px auto;      
     }
     &__wrapper {
       display: flex;
